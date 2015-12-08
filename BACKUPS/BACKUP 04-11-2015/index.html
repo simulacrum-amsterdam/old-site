@@ -1,0 +1,1186 @@
+<!doctype html>
+
+
+
+<!--Simulacrum site, 03-05-2015, door Tom Bekkers, www.bytom.graphics-->
+<!--dit eerste deel van de site is niet relevant voor de web-editor, probeer er niets aan te veranderen, tenzij je iets meer verstand hebt van html en javascript, anders gaat het waarschijnlijk kapot;)-->
+
+
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=.3">
+<title>Simulacrum</title>
+<link href="main.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="jquery-1.11.1.js"></script>
+
+<link href="fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="fancybox/jquery.fancybox.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();		
+	});
+</script>
+
+<script>
+	$(document).ready(function() {
+	
+		/* This is basic - uses default settings */
+		
+		$("a#single_image").fancybox();
+		
+		/* Using custom settings */
+		
+		$("a.inline").fancybox({
+			'hideOnContentClick': true
+		});
+		
+		/* Apply fancybox to multiple items */
+		
+		$("a.group").fancybox({
+			'transitionIn'	:	'elastic',
+			'transitionOut'	:	'elastic',
+			'speedIn'		:	600, 
+			'speedOut'		:	200, 
+			'overlayShow'	:	false
+		});
+		
+	});
+</script>
+
+<script type="text/javascript">
+var thisHash = window.location.hash;
+$(document).ready(function() {
+ if(window.location.hash) {
+  $(thisHash).fancybox().trigger('click');
+ }
+ $('.fancylink').fancybox();
+}); // ready
+</script>
+
+</head>
+
+<body>
+        <div id="wrapper">
+        	<div class="sidebar">
+            	<div class="navelements">
+                	<div class="navbuttons">
+                    	<p><a href="#page-over">Over</a></p>
+                        <p><a href="#page-blog">Blog</a></p>
+                    	<p><a href="#page-nieuws">Nieuws</a></p>
+	                   	<p><a href="#page-redactie">Redactie</a></p>
+                        <p><a href="#page-contact">Contact</a></p>
+                    	<p><a href="#page-archief">Archief</a></p> 
+                        
+                    </div>
+                    <div class="navlines">
+                    	<div id="1"></div>
+                        <div id="2"></div>
+                    	<div id="3"></div>
+                        <div id="4"></div>
+                    	<div id="5"></div>
+                    	<div id="6"></div>
+                    </div>
+                </div>
+        	</div>
+          	<div id="logowrap">
+            	<img src="images/[S]-Simulacrum.svg">
+            </div>
+            <div id="linewrap">
+            	<div class="vertical" id="line1"></div>
+                <div class="vertical" id="line1obscure"></div>
+                <div class="horizontal" id="line2"></div>
+            	<div class="vertical" id="line3"></div>
+                <div class="horizontal" id="line4"></div>
+            	<div class="vertical" id="line5"></div>
+                <div class="vertical" id="line5obscure"></div>
+                <div class="horizontal" id="line6"></div>
+            	<div class="vertical" id="line7"></div>
+                <div class="horizontal" id="line8"></div>
+            	<div class="vertical" id="line9"></div>
+                <div class="horizontal" id="line10"></div>
+            	<div class="vertical" id="line11"></div>
+            </div>
+            
+            <div class="nav-anchors">
+            	<a id="page-over"></a>                        
+                <a id="page-blog"></a>
+                <a id="page-nieuws"></a>
+                <a id="page-redactie"></a>
+                <a id="page-contact"></a>
+                <a id="page-archief"></a>
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <!-- Hieronder staat de inhoud van de site, te beginnen met de showcase van het laaste nummer. 
+            Dit stukje is de cover van het laatste nummer. als je het wilt veranderen zet je een nieuw plaatje en pdf-je in de map content/showcase, en pas je de links aan.
+            De grote ruimtes tussen code staan voor het einde/begin van een volgende kop: over, blog, nieuws etc.. -->
+            
+			<a href="content/showcase/PreviewOef.pdf">
+                <div class="showcase">
+                	<img src="content/showcase/Cover-OEF.jpg"> 
+                    <p style="font-weight:400; font-size:23px; margin-top: 0px; line-height:100%; color:#626262;">Klik hier voor een voorproefje van ons nieuwste nummer: <i>OEF</i></p>              
+                </div>
+            </a>
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+          
+            <!--hier begint over-->
+            
+            
+            <div class="page-over">
+            	<div class="text1">
+            		<h3>Simulacrum</h3>
+                	<p>Simulacrum is een wetenschappelijk tijdschrift voor kunst en cultuur, dat dient als laagdrempelig en kwalitatief publicatieplatform voor studenten en deskundigen uit het veld. <br><br>We brengen vier maal per jaar een nummer uit, iedere keer onder de noemer van een bepaald thema. De onderwerpen worden altijd benaderd vanuit verschillende disciplines binnen de kunst- en cultuurwetenschappen, en zowel in historisch als hedendaags perspectief geplaatst. De redactie bestaat uit studenten, veelal van de Universiteit van Amsterdam. <br><br>Interesse? Zoek ons op in de boekhandel, word abonnee, schrijf een bijdrage of verrijk de redactie!</p>
+            	</div>
+            </div>
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           <!--hier eindigt over, en begint het blog gedeelte-->
+           
+            <div class="page-blog">
+            	<h3 class="blog">Blog</h3>
+            	<div class="blogwrapper">
+                	<div class="content">
+                        
+                        <!--Bij iedere "a href" begint een nieuw artikel. Als je een nieuw artikel wilt toevoegen kopieer je alles vanaf hier (inclusief die a href) tot de volgende a href. je plakt het er dan boven, waarna je de tekst en plaatjes kunt aanpassen. LET OP: de tekst in de a href (achter #expandedblog-JETEKST moet je aanpassen naar een keyword wat uniek is voor dit artikel (bijv. de artiest, of een opvallend woord uit de titel.) Deze tekst moet EXACT overeen komen met wat een stukje verderop na de inleidingstekst staat: <div class="expandedblog" id="expandedblog-JETEKST">. in dit voorbeeld moet je dus JETEKST ook veranderen zodat het overeen komt met de tekst bij a href. zie de volgende comment voor de precieze locatie. Ook moeten de plaatjes waar je naar verwijst de goede link hebben. Ik adviseer je om een mapje te maken in Content/blog met als naam het zelfde keyword wat je bij a href hebt gebruikt.-->
+                       
+                        <a href="#expandedblog-grimm" class="inline">
+                            <div>
+                                <img src="content/blog/grimm/afbeelding-klein.jpg"> 
+                                <span class="red"><i>OEF: </i>Review / In Search Of... in GRIMM  </span>
+                              <p>[24-09-2015] Wie de komende tijd zin heeft in een gezonde portie conceptuele kunst, kan zijn geluk niet op. In de duotentoonstelling In Search Of… presenteert galerie GRIMM het werk van twee titaantjes van de vroege conceptuele kunst: Bas Jan Ader (1942-1975) en Ger van Elk (1941-2014). </p>
+                            </div>
+                        </a>
+                        <div class="expandedblogwrap">
+                            <div class="expandedblog" id="expandedblog-grimm">        <!--de tekst achter id="expandedblog- moet je dus aanpassen zodat hij overeenkomt met de tekst achte a href even hierboven-->
+                            
+                                <div>
+                                
+                                    <img src="content/blog/grimm/afbeelding-groot.jpg" onerror="if (this.src != 'images/blogstandaard.png') this.src = 'images/blogstandaard.png';">
+                                    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bas Jan Ader. <i>Thoughts Unsaid, Then Forgotten</i>. Courtesy of The Estate of Bas Jan Ader. GRIMM &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Amsterdam, Meliksetian/Briggs Los Angeles.</p>
+                                    
+                                    <h3 class="red">Bas Jan Ader & Ger van Elk – In Search Of... in GRIMM</h3>
+                                    
+                                    <p>Sepp Eckenhaussen en Matisse Huiskens / 24-09-2015<p>
+                                    <p>
+Wie de komende tijd zin heeft in een gezonde portie conceptuele kunst, kan zijn geluk niet op. In de duotentoonstelling In Search Of… presenteert galerie GRIMM het werk van twee titaantjes van de vroege conceptuele kunst: Bas Jan Ader (1942-1975) en Ger van Elk (1941-2014). Ader staat bekend om zijn simpele, doch krachtige performancevideo’s. Zijn beelden van een fietstocht die in de gracht eindigde <i>(Fall 1)</i> of een ‘potje grienen’ voor de camera <i>(I’m Too Sad to Tell You)</i>, veroverden de harten van kunstliefhebbers over de hele wereld. Wie goed naar de grond voor het Stedelijk Museum kijkt, kan een foto van Van Elk ontdekken die een vierkante meter van het grondoppervlak vervangt <i>(Replacement Piece)</i> om vervolgens binnen in het museum de kunstenaar piano te zien spelen <i>(C’est moi qui fait la musique)</i>. Om erachter te komen hoe deze bijzondere expositie bij GRIMM tot stand is gekomen, ging Simulacrum voor een vraaggesprek langs bij de galerie. We werden ontvangen en rondgeleid door ‘gallery director’ Sebastiaan Brandsen, van wie de citaten in dit stuk afkomstig zijn.<br><br>
+
+<b>‘Zie de galerie als platenmaatschappij’</b><br>
+In gesprek met Brandsen valt het op hoe idealistisch hij klinkt: natuurlijk is de galerie een commerciële instelling, maar de beste plek voor een kunstwerk is niet altijd bij de hoogste bieder. Maatschappelijke betrokkenheid, kunstzinnige visie en integriteit staan hoog in het vaandel. Om geen saaie ‘white cube’ of veredeld veilinghuis te worden, probeert de galerie langdurige en persoonlijke relaties te onderhouden met haar kunstenaars. ‘Zo weet ik van sommige kunstenaars ook hoe het met het afbetalen van hun huis gaat.’ Toen Bas Jans weduwe, Mary Sue Andersen-Ader, toevallig halverwege ons bezoek de galerie binnenstapte, werd ze dan ook als een vriendin ontvangen.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Het feit dat de galerie zoveel werk van Ader en Van Elk bij elkaar kan tonen, is te danken aan die korte lijntjes, en een beetje geluk. In 2012 belde Jorg Grimm op de bonnefooi Ger van Elks vaste nummer en bood hem een expositie aan, die een paar maanden later feit was. Hierna uitte Van Elk de wens om bij GRIMM een expositie te realiseren met zijn werk én dat van zijn oude vriend Bas Jan. Nu is het dan eindelijk zo ver dat deze wens uit komt in de vorm van de tentoonstelling In Search Of.., maar kan Van Elk het zelf helaas niet meer meemaken. <br><br> 
+
+<b>‘Even kroop ik in Bas Jans huid’</b><br>
+Ader is op dit moment vooral in Amerika enorm populair en veel van zijn werk bevindt zich in grote kunstcollecties, zoals die van het MoMA. Ader maakte echter al zijn werk in oplages van drie, wat betekent dat de Bas Jan Ader Estate van veel werk nog wel één of meerdere exemplaren in haar bezit heeft. Sommige werken zijn postuum door de Estate uitgegeven: videowerken zijn digitaal verdrievoudigd en onvoltooide werken zijn als ‘schetsen’ uitgebracht, uiteraard in oplage van drie. Zodoende kan GRIMM, in samenwerking met Mary Sue en de Estate, toch zo’n groot deel van Aders oeuvre tonen.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Deze vermenigvuldiging betekent dat de termen ‘origineel’ en ‘authentiek’ in het geval van Aders videowerken geen conventionele betekenis meer hebben. Bij de koop van Bas Jans installaties krijgt de verzamelaar zelfs slechts een Sol LeWitt-achtige beschrijving en de benodigde materialen. Die beschrijvingen zijn gelukkig wel heel precies en de materialen origineel. In dit geval hebben de medewerkers van de galerie zelf de honeurs waargenomen: ‘Voor Thoughts Unsaid, Then Forgotten hebben we het krijt gebruikt dat afkomstig is uit het atelier van Bas Jan. Doordat ik zelf de tekst heb aangebracht, voelde het voor een moment alsof ik echt in de huid kroop van de kunstenaar.’<br><br>
+
+<b>‘Ze zouden een schop onder hun kont mogen hebben’</b><br>
+Dat GRIMM laagdrempelig is, maar tegelijkertijd werk van hoge kwaliteit toont, is volgens Brandsen nog niet helemaal doorgedrongen bij docenten Kunstgeschiedenis van de UvA: ‘Ik zie nooit docenten van de Universiteit van Amsterdam bij ons langskomen in de galerie, iets wat ik juist graag zou zien. Die docenten zouden best eens een schop onder hun kont mogen hebben.’<br><br>
+
+<i>De tentoonstelling In search Of... is te zien tot 3 oktober.</i>
+</p>
+</p></p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#expandedblog-w139" class="inline">
+                            <div>
+                                <img src="content/blog/w139/afbeelding-klein.jpg"> 
+                                <span class="red"><i>OEF: </i>Recensie / Wilfull Blindness in W139  </span>
+                              <p>[18-09-2015] De wonderen van de natuur overvallen ons, doen ons versteld staan en hebben een diepe kracht om ons naar binnen te doen kijken, om daar een innerlijke waarheid te vinden. Deze wonderen zijn vooral buitengewoon wanneer ze met mensenhanden zijn gemaakt. Een week lang hebben acht kunstenaars in W139 tweeënvijftig ton rivierklei omgevormd tot een werkelijk bijzondere tentoonstelling van grote muren klei met prachtig reliëf van excentrieke vormen.</p>
+                            </div>
+                        </a>
+                        <div class="expandedblogwrap">
+                            <div class="expandedblog" id="expandedblog-w139">        <!--de tekst achter id="expandedblog- moet je dus aanpassen zodat hij overeenkomt met de tekst achte a href even hierboven-->
+                            
+                                <div>
+                                
+                                    <img src="content/blog/w139/afbeelding-groot.jpg" onerror="if (this.src != 'images/blogstandaard.png') this.src = 'images/blogstandaard.png';">
+                                    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kunstenaar Sachi Miyachi tijdens het maakproces. Foto: Ayako Nishibori.</p>
+                                    
+                                    <h3 class="red">Wilfull Blindness in W139</h3>
+                                    
+                                    <p>Caner Aslan (TR), Kate Bicât (UK), Paul Haworth (UK), Verena Klary (DE), Axel Linderholm (SE), Sachi Miyachi (JP), Roosmarijn Schoonewelle (NL) en Anami Schrijvers (NL) – Wilfull Blindness @ W139</p>
+                                    <p>Koen Bartijn / 18-09-2015</p>
+                                    <p>
+De wonderen van de natuur overvallen ons, doen ons versteld staan en hebben een diepe kracht om ons naar binnen te doen kijken, om daar een innerlijke waarheid te vinden. Deze wonderen zijn vooral buitengewoon wanneer ze met mensenhanden zijn gemaakt. Een week lang hebben acht kunstenaars in W139 tweeënvijftig ton rivierklei omgevormd tot een werkelijk bijzondere tentoonstelling van grote muren klei met prachtig reliëf van excentrieke vormen. De toeschouwer wordt in eerste instantie overvallen door deze grote massa grijs materiaal, maar wie de tijd neemt, leert elk klein detail te waarderen – en die je bovendien nog meer leert te waarderen wanneer je weet dat de gehele tentoonstelling geblinddoekt is gemaakt.<br><br>
+
+De kunstenaars in W139 spelen in op een fundamentele problematiek van de mens, namelijk de breuk tussen enerzijds zijn metafysische drift naar oneindigheid en vrije zelfbepaling en anderzijds zijn besef altijd een eindig wezen te zijn. Kunst is bij uitstek het medium waarin deze problematiek zichtbaar wordt gemaakt. De kunstenaar en de aanschouwer worden geleid door een drang om de grenzen van de ervaring te verleggen tot buiten de concrete buitenwereld, bezield door het besef dat je verder kunt denken dan dat je enkel met je zintuiglijk vermogen kunt bevatten. Het is dan ook in deze drang dat de mens merkt dat er zoiets bestaat als het onrepresenteerbare, iets wat niet getoond kan worden, maar wel bestaat; wellicht niet in de buitenwereld, maar wel in jezelf. Deze drang hadden ook de kunstenaars in de W139 en zij besloten daarom zich van hun zintuiglijk vermogen te ontdoen, in hun eigen gedachtes te duiken en daar te ontdekken wat ze willen uitdrukken.<br><br> 
+
+Hoewel het onrepresenteerbare normaal gesproken gepaard gaat met een angst, straalt de tentoonstelling iets anders uit. De grote werken klei zijn ingetogen en doen ons een zedige rust ervaren en daarom kan de uitwerking ervan met recht etherisch genoemd worden. Het materiaal is klei, de hoeveelheid is groot en het onderwerp staat haaks op het beroep van de beeldende kunstenaar, namelijk het afbeelden van het onrepresenteerbare, bewerkstelligd door het zelf te ontnemen van zicht. De kunstenaars stonden voor een grote opdracht, waarbij ze alles wat vertrouwd is achter zich lieten, met een week lang enkel klei in het verschiet. Uiteindelijk hebben ze de klei weten te vertrouwen. Met deze klei delen de kunstenaars wat er zich werkelijk afspeelt in hun meest innerlijke wereld.<br><br>
+
+<i>De tentoonstelling ‘Wilfull Blindness’ is te zien tot 27 september.<br>
+Koen Bartijn is student filosofie aan de Universiteit van Amsterdam en stagair bij W139.</i>
+</p>
+</p></p>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#expandedblog-momo" class="inline">
+                            <div>
+                                <img src="content/blog/momo/afbeelding-klein.jpg"> 
+                                <span class="red"><i>OEF: </i>Recensie / Momo Okabe: Bible and Dildo in Foam  </span>
+                              <p>[29-08-2015] Pijn, dood en wedergeboorte spatten van Momo Okabes foto’s. Haar felgekleurde beelden van geslachtsdelen en geamputeerde borsten bieden de toeschouwer geen enkel comfort. Voor de aandachtige kijker ontrolt zich echter de poëtische en intieme geschiedenis van Okabe en haar geliefden Kaori en Yoko. </p>
+                            </div>
+                        </a>
+                        <div class="expandedblogwrap">
+                            <div class="expandedblog" id="expandedblog-momo">        <!--de tekst achter id="expandedblog- moet je dus aanpassen zodat hij overeenkomt met de tekst achte a href even hierboven-->
+                            
+                                <div>
+                                
+                                    <img src="content/blog/momo/afbeelding-groot.jpg" onerror="if (this.src != 'images/blogstandaard.png') this.src = 'images/blogstandaard.png';">
+                                    <p> Momo Okabe. <i>Ongetiteld.</i> 2010-2013. Tentoonstelling Bible and Dildo. Foto: http://miwasusuda.blogspot.nl/.</p>
+                                    
+                                    <h3 class="red">Momo Okabe: Bible and Dildo in Foam</h3>
+                                    <p>Sepp Eckenhaussen en Matisse Huiskens / 29-08-2015</p>
+                                    <p>
+Pijn, dood en wedergeboorte spatten van Momo Okabes foto’s. Haar felgekleurde beelden van geslachtsdelen en geamputeerde borsten bieden de toeschouwer geen enkel comfort. Voor de aandachtige kijker ontrolt zich echter de poëtische en intieme geschiedenis van Okabe en haar geliefden Kaori en Yoko. De hardheid in de beelden is bij nader inzien eerder een eerlijke intimiteit. Heel open legde Okabe vast hoe Kaori en Yoko een geslachtstransformatie ondergingen, in dezelfde tijd dat een tsunami Fukushima verwoestte. <br><br>
+
+De zichtbare pijnlijke metamorfoses van Kaori en Yoko, die samenvallen met de vernietiging in Fukushima, zijn paradoxaal genoeg ook reden tot optimisme. Een sprankje blijdschap en opluchting is te vinden in een foto van Kaori, breed lachend in colbert. In Bible and Dildo verweeft Okabe foto’s van specifieke gebeurtenissen op intuïtieve wijze tot een universeel verhaal van verwoesting en wederopbouw.
+<br><br> 
+
+De openheid van Okabes foto’s contrasteert met haar verschijning bij de opening. Stil, timide bijna, loopt ze rond en laat haar metgezel het woord doen. Dit toont dat we de durf die Okabe in haar oeuvre aan de dag legt niet voor zelfverzekerdheid moeten houden, maar voor een open en zoekende houding ten opzichte van gender en seksualiteit. Bible and Dildo daagt de bezoeker uit zijnhaar eigen vooroordelen aan de kant te zetten en Okabes open houding aan te nemen.
+<br><br>
+</p>
+</p></p>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#expandedblog-grenzen" class="inline">
+                            <div>
+                                <img src="content/blog/grenzen/afbeelding-klein.jpeg"> 
+                                <span class="red"><i>OEF: </i>Column / De grenzen van het lichaam </span>
+                              <p>[03-08-2015] Met mijn handen tast ik mijn lichaam af. Ik druk en wrijf een laagje van vet isolatiemateriaal tegen de structuur van harde botten. Ik voel mijn spieren, verpakt in een wat ruimer wordende huid. Met mijn vingers knijp ik rimpels in mijn borsten en putjes in mijn benen. Mijn lijf van vergankelijk vlees is de tastbare omlijsting van mijn ‘ik’. </p>
+                            </div>
+                        </a>
+                        <div class="expandedblogwrap">
+                            <div class="expandedblog" id="expandedblog-grenzen">        <!--de tekst achter id="expandedblog- moet je dus aanpassen zodat hij overeenkomt met de tekst achte a href even hierboven-->
+                            
+                                <div>
+                                
+                                    <img src="content/blog/grenzen/afbeelding-groot.jpg" onerror="if (this.src != 'images/blogstandaard.png') this.src = 'images/blogstandaard.png';">
+                                    <p> Berlinde De Bruyckere. <i>Marthe.</i> 2008. Privécollectie Antwerpen. Foto: Mirjam Devriendt, Gemeente Museum Den Haag.</p>
+                                    
+                                    <h3 class="red">De grenzen van het lichaam</h3>
+                                    <p>Sabine Winters / 03-08-2015</p>
+                                    <p>
+Met mijn handen tast ik mijn lichaam af. Ik druk en wrijf een laagje van vet isolatiemateriaal tegen de structuur van harde botten. Ik voel mijn spieren, verpakt in een wat ruimer wordende huid. Met mijn vingers knijp ik rimpels in mijn borsten en putjes in mijn benen. Mijn lijf van vergankelijk vlees is de tastbare omlijsting van mijn ‘ik’. <br><br>
+
+En wat doen wij mensen ons best om de brutaliteit van deze vergankelijkheid te negeren. In het verlangen naar de eeuwige continuïteit streven we naar leven alleen. We zorgen zo goed mogelijk voor onszelf, laten ons medicatie voorschrijven en eten en sporten om de dood zo lang mogelijk buiten de deur te houden. De dood zelf is een taboe geworden, een afgebakend territorium, doordat we er grenzen omheen hebben gecreëerd.<sup>1</sup><br><br> 
+
+Maar de dood is onontkoombaar. De Franse filosoof Bataille (1897 – 1962 ) wees ons al op de paradox van het streven naar eeuwig leven.<sup>2</sup> Juist het streven naar continuïteit, zei hij, herinnert ons aan de discontinuïteit van het leven. Het gezonde, regelmatige, de dood uitstellende leven roept het gevoel op dat er niet aan de dood te ontsnappen is.<br><br>
+
+De angst voor de dood bestaat omdat grenzen ons menselijk bestaan kenmerken. Grenzen betekenen discontinuïteit. We verlangen naar eenheid en eeuwigheid, en in onze ijdele hoop het leven te beschermen stellen we grenzen op om het hier zo lang mogelijk vol te houden. We stellen grenzen in tijd, in ruimte. Maar ook in subject en object, waarbij de grenzen van het lichaam de waarneembare grenzen van het ‘ik’ zijn.<sup>3</sup><br><br>
+
+Volgens Bataille wordt continuïteit door die begrenzing een onbekend en onbegrensd terrein dat ons angst inboezemt. Maar ons bestaan is er helemaal op gebouwd om de grenzen te beschermen. We hebben culturen ontworpen, geloof, (wetenschappelijke) overtuigingen, wetten, regels en taboes. Over die grenzen heengaan betekent de dood: het einde van het subject, het individu en het lichaam dat daarbij hoort.<sup>4</sup><br><br>
+
+Tegelijkertijd gaan grenzen irriteren. De mens verafschuwt en verlangt de dood. Diep van binnen blijven we smachten naar de extase van de continuïteit of, zoals Bataille het noemt, 'het zuivere, echte leven'.<sup>5</sup> Daarom zoeken we (lichamelijke) grensoverschrijdende ervaringen op. We hebben behoefte aan verkwisting en verspilling in ons individuele leven en ervaren dat als een verlichting van onze plichten.  <br><br>
+
+Nu is mijn vraag: kan de ervaring van <i>kunst</i> fungeren als grensoverschrijdend medium, waardoor de toeschouwer in een extase van emoties een glimp kan opvangen van continuïteit? Kan kunst dienen als ritueel, een venster om ons verlangen naar eenheid te bevredigen en de angst om op te gaan in het collectieve weg te nemen? Is kunst een venster met uitkijk op het 'zuivere leven'?<sup>6</sup> <br><br>
+
+Ik denk aan de pornografische beelden van de Chinese fotograaf Ren Hang en glijd met mijn gedachten langs de vervallen lichamen van Lucian Freud tot aan de nauwelijks herkenbare dierlijkheid in de sculpturen van De Bruyckere. Mooi kan ik de vervallen, opengesperde, vervormde en rottende lichamen die zij maken zelden noemen. Maar hoe groter het taboe, des te indrukwekkender en des te meer bewonderenswaardig vind ik de werken.<sup>7</sup><br><br>
+
+De afbeeldingen van het lichaam in kunst zijn meer dan eens bevreemdend, en komen niet overeen met het beeld dat we hebben van ons lichaam in de realiteit. Kunst fungeert als een afbeelding van grensoverschrijdende praktijken, zonder dat we onszelf schuldig maken aan immoreel gedrag. Door normen te overschrijden, wordt het gewone leven binnen de grenzen gewaarborgd. Kunst dient als een ritueel dat de heersende norm negeert en taboes bespreekbaar maakt om op die manier grenzen af te bakenen en het gewone leven daarbinnen te beschermen.<sup>8</sup> <br><br>
+
+Kunst is een venster op schrikbarend genot dat de aan discontinuïteit lijdende toeschouwer meesleurt, de continuïteit van de extase in. [S] <br><br>
+
+Zie voor meer publicaties van Sabine Winters haar website www.denkkaders.nl.<br><br>
+
+<p style=”font-size:12px”>
+<sup>1</sup> Bataille, Georges. <i>De innerlijke ervaring.</i> Nederlandse Vertaling: Laurens ten Kate. Wim Kuijt. Hilversum: Uitgeverij Gooi & Sticht, 1989.<br>
+
+<sup>2</sup> Koletski, Erik.  <i>De erotiek van George Bataille.</i> Nopapers.com. 25 juli 2015 < http://www.nopapers.nl/km/az/boek/1/boek0188.html >.<br>
+
+<sup>3</sup> Koletski, Erik.  <i>De erotiek van George Bataille.</i> Nopapers.com. 25 juli 2015 < http://www.nopapers.nl/km/az/boek/1/boek0188.html >.<br>
+
+<sup>4</sup> Smout, Bart. <i>Het ontklede woord. Literatuur en erotiek volgens Georges Bataille.</i> November 2011. Tijdschriftframe.nl 25 juli 2015 < http://www.tijdschriftframe.nl/wp-content/uploads/2014/11/05.-Bart-Smout-Het-ontklede-woord-Literatuur-en-erotiek-volgens-Georges-Bataille-main.pdf >.<br>
+    
+<sup>5</sup> Oosterling, Henk. <i>Kunst als laatste ritueel?</i> Henkoosterling.nl. 25 juli 2015 < http://www.henkoosterling.nl/bataille-kf2.html >.<br>
+
+<sup>6</sup> Bataille, Georges. <i>De Erotiek. (deel 1).</i> Nederlandse vertaling: Versteeg, Jan. Amsterdam, Uitgeverij Arena,  1993.<br>
+
+<sup>7</sup> Oosterling, Henk. <i>Kunst als laatste ritueel?</i> Henkoosterling.nl. 25 juli 2015 < http://www.henkoosterling.nl/bataille-kf2.html >.<br>
+
+<sup>8</sup> Oosterling, Henk. <i>Kunst als laatste ritueel?</i> Henkoosterling.nl. 25 juli 2015 < http://www.henkoosterling.nl/bataille-kf2.html >.<br>
+</p>
+
+</p></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <a href="#expandedblog-body" class="inline">
+                            <div>
+                                <img src="content/blog/bodytalk/afbeelding-klein.jpg"> 
+                                <span class="red"><i>OEF: </i>Fotoreportage / Body Talk </span>
+                              <p>[09-07-2015] ‘Wat is een Afrikaans vrouwenlichaam? Het ultieme voorwerp van patriarchale offervaardigheid? Is het een onschendbaar of geschonden lichaam, dat grensoverschrijdend tussen rassen en seksen de geschiedenis ensceneert en belichaamt? Of dat alles tezamen?’ Deze en andere vragen kaart de in Kameroen geboren curator Koyo Kouoh aan in de tentoonstelling Body Talk: feminisme, seksualiteit en het lichaam in het werk van zes Afrikaanse kunstenaressen in Brussel.</p>
+                            </div>
+                        </a>
+                        <div class="expandedblogwrap">
+                            <div class="expandedblog" id="expandedblog-body">        <!--de tekst achter id="expandedblog- moet je dus aanpassen zodat hij overeenkomt met de tekst achte a href even hierboven-->
+                            
+                                <div>
+                                    
+                                    <h3 class="red">Body Talk: feminisme, seksualiteit en het lichaam in het werk van zes Afrikaanse kunstenaressen</h3>
+                                    <p>Frederike Sperling / 09-07-2015</p>
+                                    <p>
+Simulacrum bezocht voor haar actuele nummer <i>OEF</i> een tentoonstelling in WIELS, Centrum voor Hedendaagse Kunst in Brussel. Neem hieronder een kijkje naar de fotoreportage van ons bezoek aan de tentoonstelling en lees het bijbehorende interview met de coördinerende curator Caroline Dumalin in het nummer (te verkrijgen in geselecteerde boekhandels of te bestellen via info@simulacrum.nl).<br><br>
+‘Wat is een Afrikaans vrouwenlichaam? Het ultieme voorwerp van patriarchale offervaardigheid? Is het een onschendbaar of geschonden lichaam, dat grensoverschrijdend tussen rassen en seksen de geschiedenis ensceneert en belichaamt? Of dat alles tezamen?’<sup>1</sup> Deze en andere vragen kaart de in Kameroen geboren curator Koyo Kouoh aan in de tentoonstelling <i>Body Talk: feminisme, seksualiteit en het lichaam in het werk van zes Afrikaanse kunstenaressen</i> in Brussel. Ze bracht zes kunstenaressen met uiteenlopende visies en werkwijzen samen in een diverse tentoonstelling. De werken confronteren de bezoeker met diep gewortelde stereotypen en kwesties omtrent de omgang met koloniale geschiedenis. Tegelijkertijd heeft de tentoonstelling grote affiniteit met de <i>womanism</i> beweging, waarin (gekleurde) vrouwen vanaf de jaren 80 een ‘meer inclusief feminisme’ bepleitten: een feminisme waarin naast de rechten van de blanke, ook die van de zwarte vrouw vertegenwoordigd zouden worden. Simulacrum bekeek het werk van Zoulikha Bouabdellah, Marcia Kure, Miriam Syowia Kyambi, Valérie Oka, Tracey Rose en Billie Zangewa.<br><br>
+<img src="content/blog/bodytalk/FotoBody1.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;afb.1 <br><br>    
+<img src="content/blog/bodytalk/FotoBody2.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;afb.2 <br><br>
+
+Het eerste werk <i>The Rebirth of the Black Venus</i> (2010, De wedergeboorte van de Zwarte Venus) verwelkomt de bezoeker. Met haar allegorische voorstelling maakt kunstenares Billie Zangewa meteen een onmiskenbaar statement: de Venus, die duidelijk naar Botticellis beroemde schilderij uit de 15e eeuw verwijst, draagt een lint met de woorden ‘surrender whole-heartedly to your complexity’ (‘Geef je van ganser harte over aan je complexiteit’). De figuur transformeert een wereldbekend Renaissance-icoon naar een hedendaagse, postkoloniale context, niet alleen in haar rol als vrouw, maar meer nog als naakte en gekleurde vrouw. Deze Venus vertegenwoordigt een uitgesproken zelfbewust en geëmancipeerd personage. <br><br>
+
+<img src="content/blog/bodytalk/FotoBody3.jpg"> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;afb.3 <br><br><img src="content/blog/bodytalk/FotoBody4.jpg"> <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspafb.4 <br><br>
+
+Vervolgens presenteert Marcia Kure met haar triptiek <i>The Three Graces</i> (2014, De Drie Gratiën) een sterk metaforisch en abstract werk. Haar collectieve portret van drie Afrikaanse vrouwelijke krijgers van het koninkrijk Dahõm’ey symboliseert ‘het getekende, kwetsbare en weerbare vrouwenlichaam.’ Terwijl de tapijten bijvoorbeeld symbool staan voor het beschermen en bedekken van het misbruikte lichaam, verwijzen de witte strepen op de houten schilden naar ‘keloïden- sporen van schoonheids-, identiteits-of overgangsrituelen’ op Afrikaanse vrouwelijke lichamen. De kleurrijke afropruiken doen denken aan hedendaagse trends en tonen een hybride vermenging van verschillende culturen. <br><br>
+
+<img src="content/blog/bodytalk/FotoBody5.JPG"> <br>
+afb.5  <br> <img src="content/blog/bodytalk/FotoBody6.JPG"> <br>  <br>       afb.6 <br><br>
+
+De volgende zaal presenteert de installatie van Valérie Oka’s diner-performance <i>En sa presence</i> (2015, In haar aanwezigheid) die tijdens de vernissage van de tentoonstelling plaatsvond. Tijdens de performance zaten twaalf gasten rond een tafel - waaronder Oka zelf. Ze bediscussieerden de oorsprong van diep gewortelde vooroordelen en geëtaleerde stereotypes over de belichaming van de gekleurde vrouw als (seksueel) object. Op de muur staat in neon-letters geschreven: ‘Tu croix vraiment que parce que je suis noire je baise mieux?’ (Denk je nu echt dat ik beter neuk omdat ik zwart ben?).<br><br>
+
+<img src="content/blog/bodytalk/FotoBody7.jpg"> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; afb.7 <br> <img src="content/blog/bodytalk/FotoBody3.jpg"> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+afb.8<br><br>
+
+Zoulikha Bouabdellah houdt zich in haar werken <i>Nues</i> (2014, Naakten) en <i>L’araignée</i> (2013, De spin) voornamelijk bezig met culturele hybriditeit. Haar collages bestaan telkens uit verschillende fragmenten van beroemde schilderijen. Haar sculpturele spin daarentegen bestaat uit acht verschillende architectonische bogenvormen- vormen, die hun oorsprong zowel in het oosten hebben als in het westen te vinden zijn. Net als Kure maakt ook Boubdellah gebruik van symbolen. Zo kun je de spin in verband brengen met ‘vrijheid, de ziel, het vrouwelijke geslacht en (...) de vrouwelijke seksualiteit.’<br><br>
+
+<img src="content/blog/bodytalk/FotoBody9.jpg"> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;afb.9 <br> <img src="content/blog/bodytalk/FotoBody10.JPG"> <br>afb.10<br><br>
+
+
+De tweede van Valérie Oka’s performances vond plaats in een kooi, waarin een gekleurde  naakte vrouw samen met een <i>oversized</i> fallussymbool gevangen zat. Met haar provocerende presentatie ontmaskerde Oka specifieke denkbeelden en confronteerde de toeschouwer met zijn of haar eigen verinnerlijkte stereotypes die bijvoorbeeld ‘zwart’ gelijkstellen aan ‘beestachtig’.<sup>8</sup><br><br>
+
+<img src="content/blog/bodytalk/FotoBody11.jpg"> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; afb.11<br> <img src="content/blog/bodytalk/FotoBody12.JPG"> <br> afb.12 <br><br>
+
+Miriam Syowia Kyambi is in haar werk op zoek naar haar identiteit in het postkoloniale en in stedelijke gebieden ook door het kapitalisme beïnvloede Kenia. In haar performance <i>Fracture I</i> (2011-10, Breuk I), belichaamt ze een vrouw die als ‘succesvol consumentenmodel’ worstelt met de invloeden uit het koloniale verleden.<br><br>
+
+<img src="content/blog/bodytalk/FotoBody13.jpg"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;afb.13 <br><br>
+
+Tracey Rose is in de tentoonstelling vertegenwoordigd met een video en haar kostuum daaruit. Voor <i>Tracings</i> (2015, Spoorzoeken) ondernam Rose een pelgrimstocht vanuit Vorst, België naar het graf van Koning Leopold II in Laken. Haar kostuum bestond daarbij uit gevonden materialen en staat net als bij Kure symbool voor bescherming. Het lichaam van de kunstenaar wordt in dit werk actief ingezet voor de ‘terechtstelling’ van een belangrijk figuur uit het koloniale verleden van België.<br><br>
+Concluderend kan worden vastgesteld dat de tentoonstelling in haar missie - de tekortkomingen van het blanke feminisme compenseren - slaagt. Door de eclectische en zelfbewuste kunstwerken van de zes verschillende Afrikaanse kunstenaressen te presenteren, postuleert Kouoh culturele diversiteit en de reflectieve omgang met de geschiedenis. Alhoewel men zou kunnen beweren dat de expositie net als het blanke feminisme een te eenzijdig beeld levert, namelijk door uitsluitend Afrikaanse kunstenaressen te exposeren, wordt duidelijk dat misschien juist zo een specifieke focus als tegengeluid noodzakelijk was. [S]<br><br>
+
+[afbeeldingen]<br>
+afb. 1. Billie Zangewa. <i>The Rebirth of the Black Venus.</i> 2010. Zijdeweefsel. Foto: auteur.<br>
+
+afb. 2. Billie Zangewa. <i>The Rebirth of the Black Venus.</i> 2010. Zijdeweefsel. Foto: Between 10and5.<br>
+
+afb. 3. Marcia Kure. <i>The Three Graces.</i> 2014. Tapijtreliëfs met driedimensionale objecten. Foto: Sven Laurent.<br>
+
+afb. 4. Marcia Kure. <i>The Three Graces.</i> 2014. Detail van tapijtreliëfs met driedimensionale objecten. Foto: AADAT.<br>
+
+afb. 5. Valérie Oka. <i>En sa présence.</i> 2015. Foto van de installatie. Foto: auteur.<br>
+
+afb. 6. Valérie Oka. <i>En sa présence.</i> 2015. Detailfoto van de installatie. Foto: auteur.<br>
+
+afb. 7. Zoulikha Bouabdellah. <i>L’araignée.</i> 2013. Sculptuur. Foto: auteur.<br>
+
+afb. 8. Zoulikha Bouabdellah. <i>Nues.</i> 2014. Postercollage. Foto: Anne de Villepoix. <br>
+
+afb. 9.  Valérie Oka. <i>Zonder titel.</i> 2015. Foto van de installatie. Foto: auteur.<br>
+
+afb.10. Valérie Oka. <i>Zonder titel.</i> 2015. Foto van de installatie. Foto: auteur.<br>
+
+afb. 11. Miriam Syowia Kyambi. <i>Fracture I.</i> 2011- 2014. Foto van de installatie. Foto: auteur.<br>
+
+afb. 12. Miriam Syowia Kyambi. <i>Fracture I.</i> 2011- 2014. Foto van de installatie. Foto: auteur.<br>
+
+afb. 13. Tracey Rose. <i>Tracings.</i> 2015. Productiestill. Foto: Joke Floreal.<br><br>
+
+
+<sup>1</sup> Kouoh, K. `Inleiding.´ <i>Body Talk: Feminism, Sexuality and the Body in the Work of Six African Women Artists.</i> [tent.cat.]. Brussel: Wiels, 2015: ongepagineerd.<br> </p>
+
+</p></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+              <!--tot hier moet je kopieren om een nieuw artikel te maken--> 
+                        
+                        <a href="#expandedblog-oppervlakte" class="inline">
+                            <div>
+                                <img src="content/blog/oppervlakte/afbeelding-klein.jpg" onerror="if (this.src != 'images/blogstandaard.png') this.src = 'images/blogstandaard.png';">                                
+                                <span class="red"><i>Let's get digital!: </i>Artikel / Onder de oppervlakte van het scherm</span>
+                              <p>[12-05-2015] Ons dagelijks leven raakt steeds verder doordrongen van algoritmen. <i>Sleep trackers</i> bepalen wanneer we het beste wakker gemaakt kunnen worden, wat we lezen en zien wordt gefilterd op basis van ons dataprofiel en ondertussen wordt meer dan de helft van alle financiële transacties uitgevoerd door bots. Steeds meer processen worden geautomatiseerd en efficiënter. Hoewel we ons bewust zijn van het effect van deze processen, hebben we weinig zicht op wat ook wel <i>‘the subterranean’</i> wordt genoemd: de digitale landschappen van complexe netwerken en algoritmen die deze processen vormgeven.</p>
+                            </div>
+                        </a>
+                        <div class="expandedblogwrap">
+                            <div class="expandedblog" id="expandedblog-oppervlakte">        <!--de tekst achter id="expandedblog- moet je dus aanpassen zodat hij overeenkomt met de tekst achte a href even hierboven-->
+                            
+                                <div>
+                                    <img src="content/blog/oppervlakte/afbeelding-groot.jpg" onerror="if (this.src != 'images/blogstandaard.png') this.src = 'images/blogstandaard.png';">
+                                    <p>Karina Smigla-Bobinski. <i>Simulacra</i>. 2013. Interactieve video installatie. MoTA Museum of Transitory Art in Ljubljana, Sloveniё.</p>
+                                    <h3 class="red">Onder de oppervlakte van het scherm</h3>
+                                    <p>Katía Truijen / 12-05-2015</p>
+                                    <p>
+Ons dagelijks leven raakt steeds verder doordrongen van algoritmen. <i>Sleep trackers</i> bepalen wanneer we 
+
+het beste wakker gemaakt kunnen worden, wat we lezen en zien wordt gefilterd op basis van ons 
+
+dataprofiel en ondertussen wordt meer dan de helft van alle financiële transacties uitgevoerd door bots. 
+
+Steeds meer processen worden geautomatiseerd en efficiënter. Hoewel we ons bewust zijn van het effect 
+
+van deze processen, hebben we weinig zicht op wat ook wel <i>‘the subterranean’</i> wordt genoemd: de 
+
+digitale landschappen van complexe netwerken en algoritmen die deze processen vormgeven. Volgens 
+
+Bruno Latour streeft technologie er bij uitstek naar om zich te verbergen, te vermommen en onzichtbaar te 
+
+worden.<sup>1</sup> Maar soms zijn kunstenaars in staat ons een blik te bieden op hoe technologie en algoritmes zich 
+
+gedragen en hoe ze opereren, bijvoorbeeld door juist ‘menselijke eigenschappen’ aan algoritmes toe te 
+
+kennen. <br><br>
+
+<i>A Superstitious Fund</i> (2012) van Shing Tat Chung is een fictieve <i>non-profit</i> organisatie (een fonds) 
+
+gebaseerd op een robot die handelt op basis van bijgeloof. De bot vermijdt bijvoorbeeld altijd het nummer 
+
+13 en voert geen transacties uit tijdens volle maan. Zoals mensen zoeken naar patronen die hen een illusie 
+
+van controle geven, zo genereert de robot op basis van voltooide transacties een algoritmisch bijgeloof dat 
+
+zich steeds verder ontwikkelt. Een ander generatief werk is <i>Every User</i> (2014) van Matthew Plummer-
+
+Fernandez<sup>2</sup>: een autonoom twitter profiel dat één voor één elke bestaande twitter gebruiker volgt, in de 
+
+volgorde van het twitter ID nummer. Het is een archief van het archief, dat ons herinnert aan de principes 
+
+van digitale infrastructuren en aan het feit dat we als gebruikers slechts een nummer zijn in een 
+
+gigantische database.  <br><br>
+
+In de video installatie <i>Simulacra</i> (2014) van Karina Smigla-Bobinski tonen beeldschermen een fel wit 
+
+licht, maar als je met een vergrootglas kijkt zie je delen van een lichaam – handen, voeten, haren – 
+
+verschijnen en herken je iemand die zwemt in een melkachtige vloeistof. Zonder het vergrootglas zie je 
+
+alleen een lege tank, terwijl de persoon altijd aanwezig is in de pixels van de monitoren. Het werk levert 
+
+een heel ruimtelijke ervaring op en speelt met onze perceptie en de manier waarop we beeldschermen 
+
+begrijpen.<sup>3</sup><br><br>
+
+Door <i>‘scripts’</i> te lezen, deconstrueren en manipuleren, herprogrammeren kunstenaars de software die 
+
+anders verborgen blijft en laten ze zien dat er alternatieve mogelijkheden zijn om technieken, algoritmes 
+
+en andere digitale tools te gebruiken. Volgens filosoof Nicholas Bourriaud fungeren kunstwerken op die 
+
+manier soms als een postproductie van het alledaagse leven, door een extra filter of laag te creëren 
+
+waardoor we bestaande situaties vanuit een ander perspectief kunnen bekijken.<sup>4</sup><br><br>
+
+Kunstenaars als Shing Tat Chung, Matthew Plummer-Fernandez en Karina Smigla-Bobinski zetten heel 
+
+bewust digitale instrumenten in om nieuwe scripts te creëren. Tegelijkertijd bieden ze ons tools om de 
+
+digitale <i>subterranean</i> landschappen die zich achter onze schermen bevinden zichtbaar en navigeerbaar te 
+
+maken. [S]</p>
+
+<p style="font-size:12px">
+<sup>1</sup> Latour, Bruno. <i>An Inquiry into Modes of Existence.</i> Cambridge: Harvard University Press, 2013: 217.
+
+<sup>2</sup> Matthew Plummer-Fernandez deelt zijn onderzoek op <a href="http://algopop.tumblr.com/">Algopop</a>, een populaire Tumblr waarop hij voorbeelden 
+
+verzamelt van alledaagse praktijken die zijn doordrongen met algoritmes en waarop hij verwijst naar werk van 
+
+kunstenaars die reageren op deze context: <a href="http://algopop.tumblr.com/">http://algopop.tumblr.com/</a> Hij zal ook spreken tijdens de conferentie van 
+
+het FIBER Festival op 16 mei in Amsterdam. <br>
+
+<sup>3</sup> Het werk <i>Simulacra</i> van Karina Smigla-Bobinski is te zien in de tentoonstelling van het FIBER festival, van 15-18 
+
+mei in A Lab in Amsterdam.<br>
+
+<sup>4</sup> Bourriaud, Nicholas. “Precarious Constructions. Answer to Jacques Rancière on Art and Politics.” <i>Open 17</i> (2009): 
+
+20-37.</p><p class="red">FIBER festival</p></p><p>Wil je meer over The Subterranean weten en ben je geïnteresseerd in de esthetische,
+
+maatschappijkritische en audio(visuele) uitingen? Kom dan langs bij het <a href="http://2015.fiberfestival.nl/">FIBER festival</a> op 15 en 16 mei 
+
+in A Lab, Radion en Volkshotel in Amsterdam.</p></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+              <!--tot hier moet je kopieren om een nieuw artikel te maken-->          
+                        
+
+
+          	 <!--HIER begint het volgende blog-artikel-->
+
+                        <a href="#expandedblog-atkins" class="inline">
+                            <div>
+                                <img src="content/blog/atkins/afbeelding-klein.jpg" onerror="if (this.src != 'images/blogstandaard.png') this.src = 'images/blogstandaard.png';">                                
+                                <span class="red"><i>Let's get digital!: </i>Recensie / Ed Atkins: Tussen realiteit en virtualiteit.</span>
+                              <p>[21-04-2015] Een bezoek aan de tentoonstelling <i>Ed Atkins – Recent Ouija</i> is een verwarrende, 
+
+confronterende en ook frustrerende reis door het veelgelaagde videolandschap van de 
+
+opkomende Britse digital art kunstenaar Ed Atkins (1982). Alles begint met de video <i>Warm, 
+
+Warm, Warm Spring Mouths</i> (2013) die, op een monumentaal scherm geprojecteerd, een 
+
+eerste indruk levert van Atkins’ digitale esthetiek.</p>
+                            </div>
+                        </a>
+                        
+                            <div class="expandedblog" id="expandedblog-atkins">
+                                <div>
+                                    <img src="content/blog/atkins/afbeelding-groot.jpg" onerror="if (this.src != 'images/blogstandaard.png') this.src = 'images/blogstandaard.png';">
+                                    <p>Ed Atkins. <i>Warm, Warm, Warm Spring Mouths</i>. 2013. 16:9 HD video met 5.1 surround. Cabinet 
+
+Gallery, London en Isabella Bortolozzi Galerie, Berlijn.</p>
+                                    <h3 class="red">Ed Atkins: Tussen realiteit en virtualiteit</h3>
+                                    <p>Frederike Sperling / 21-04-2015</p>
+                                    <p>
+Een bezoek aan de tentoonstelling <i>Ed Atkins – Recent Ouija</i> is een verwarrende, 
+
+confronterende en ook frustrerende reis door het veelgelaagde videolandschap van de 
+
+opkomende Britse digital art kunstenaar Ed Atkins (1982). Alles begint met de video <i>Warm, 
+
+Warm, Warm Spring Mouths</i> (2013) die, op een monumentaal scherm geprojecteerd, een 
+
+eerste indruk levert van Atkins’ digitale esthetiek. De esthetiek waarin CGI (computer-
+
+generated imagery) - dus de computer - als primair artistiek middel fungeert. De video 
+
+bestaat uit abrupt wisselende sequenties, waarbij elke sequentie vergezeld is van 
+
+verschillende geluidsfragmenten. Het ene moment hoor je esoterische of klassieke muziek, 
+
+dan weer een robotachtige voice-over, dan weer een monoloog van een avatar die de 
+
+protagonist van de video kan voorstellen. Dit langharige en naakte figuur dat uit een 
+
+computerspel gevlucht lijkt te zijn, plaatst de beschouwer in een spanningsveld tussen 
+
+identificatie en vervreemding. Het virtuele karakter vertoont met zijn hoesten en geeuwen 
+
+menselijke trekken en doet met een koptelefoon in zijn oren denken aan het archetype van 
+
+onze sociaal geïsoleerde maatschappij. Echter lijkt hij tegelijkertijd grotesk, misantropisch en 
+
+vreemd. Niet alleen op grond van zijn digitale gestalte, maar ook vanwege zijn repetitieve ik-
+
+monoloog: in wisselende gemoedstoestanden en tempo’s herhaalt hij het refrein uit Gilberto 
+
+Sorrentino’s gedicht <i>The Morning Roundup</i> (1971): “I don’t want to hear any news on the 
+
+radio about the weather on the weekend. Talk about that. Once upon a time a couple of 
+
+people were alive who were friends of mine.” Deze avatar lijkt op een zoekend, verloren en 
+
+door weemoed gedreven karakter.<br><br>
+
+Met een gevoel van benauwdheid en verwarring zet de bezoeker zijn reis voort door Atkins 
+
+wereld, op zoek naar een verklaring en inhoudelijke verbanden. Daarbij komt hij terecht bij 
+
+de kern van de tentoonstelling, met als hoogtepunt de video <i>Ribbons</i> (2014). Over meerdere 
+
+schermen verdeeld, confronteert Atkins de toeschouwer met verschillende parallel lopende 
+
+verhaalstrengen. Het ene moment spelen de scènes zich af in een verlaten bar, dan weer in 
+
+een ondefinieerbare witte ruimte. Centraal daarbij staat telkens het karakterfiguur Dave: 
+
+een kaal geschoren en getatoeëerde avatar. In de loop van de video beleef je Dave 
+
+melancholisch zingend en rokend in een bar of zie je hem drinken en plassen. Op bepaalde 
+
+momenten staat op zijn voorhoofd in krakkemikkige letters ‘Bankrupt’ geschreven en zingt 
+
+hij Randy Newman’s <i>I think it’s going to rain today</i>, andere momenten is zijn lichaam blanco 
+
+en klinkt Bach’s <i>Erbarme Dich</i>. <i>Ribbons</i> eindigt op het punt dat Dave - alsof hij louter 
+
+een opblaasbare pop was - ineen stort. Opnieuw laat Atkins de bezoeker in onwetendheid 
+
+achter.<br><br>
+
+Met werken zoals <i>Warm, Warm, Warm Mouths</i> en <i>Ribbons</i> herinnert Atkins ons aan onszelf. 
+
+Wij, die het digitale allang als geïntegreerd onderdeel van ons leven geaccepteerd hebben. 
+
+Wij, die allang geen onderscheid meer kunnen maken tussen realiteit en virtualiteit. Wij, die 
+
+steeds vaker de weg kwijt raken in de oneindig verschijnende dimensies van het digitale. 
+
+Atkins brengt ons in de war, confronteert ons met een ondoordringbare chaos van 
+
+wispelturige en wisselende beelden en laat ons vertwijfeld achter in zijn onsamenhangende 
+
+en non-lineair aandoende verhaalstrengen.<br><br>
+
+Op deze unieke manier stimuleert Atkins ons tot existentiële en reflectieve denkprocessen 
+
+over onze verhouding tot de digitale wereld. Welke invloed heeft het internet, deze virtuele 
+
+parallelle wereld, op ons reële leven? Wat is de werkelijkheid en waar begint virtualiteit? 
+
+Hoe moeten we tegenwoordig waarheid definiëren? Wat mogen wij geloven? Atkins levert 
+
+ons noch klant-en-klare antwoorden, noch presenteert hij ons in zijn video’s een specifieke 
+
+visie op de toekomst of oefent hij kritiek uit op onze tegenwoordige relatie tot het digitale. 
+
+Met <i>Ed Atkins – Recent Ouija</i> slaagt Atkins erin om aan de hand van een unieke symbiose uit 
+
+filosofische kwesties en digitale technologie onze ambivalente relatie tot virtualiteit ter 
+
+discussie te stellen. [S]</p>
+
+<p style="font-weight:bold">
+<i>Ed Atkins – Recent Ouija</i><br>
+
+Stedelijk Museum Amsterdam<br>
+
+21 februari – 31 mei 2015</p></p>
+                                </div>
+                            </div>
+
+
+
+
+
+                        
+                        <!--Hier begint het volgende blog-artikel-->
+                        
+                        <a href="#expandedblog-achterdeur" class="inline">
+                            <div>
+                                <img src="content/blog/achterdeur/afbeelding-klein.jpg" onerror="if (this.src != 'images/blogstandaard.png') this.src = 'images/blogstandaard.png';">
+                                <span class="red"><i>Let's get digital!: </i>Column / Via de achterdeur naar het balkon.</span>
+                                <p>[21-04-2015] Ik ga zitten op een kruk, maar ik bevind me op een sofa. Patrick Watson loopt de kamer binnen en doet iets 
+
+op zijn laptop. Dan neemt hij plaats achter de piano, steekt een sigaret op en begint voorzichtig te spelen. Ik 
+
+kijk de kamer rond en zie onuitgepakte dozen, kleren op de grond en in de hoek een slapende hond. Patrick 
+
+begint te fluisterzingen en ik geloof dat ik mijn adem inhoud. Na een paar minuten tikt iemand op mijn 
+
+schouder en hoor ik een stem uit een andere kamer. Ik zet mijn bril af. Het is alsof ik te vroeg wakker word. </p>
+                            </div>
+                        </a>
+                        
+                            <div class="expandedblog" id="expandedblog-achterdeur">
+                                <div>
+                                    <img src="content/blog/achterdeur/afbeelding-groot.jpg" onerror="if (this.src != 'images/blogstandaard.png') this.src = 'images/blogstandaard.png';">
+                                    <h3 class="red">Via de achterdeur naar het balkon</h3>
+                                    <p>Katía Truijen / 21-04-2015</p>
+                                    <p>Ik ga zitten op een kruk, maar ik bevind me op een sofa. Patrick Watson loopt de kamer binnen en doet iets 
+
+op zijn laptop. Dan neemt hij plaats achter de piano, steekt een sigaret op en begint voorzichtig te spelen. Ik 
+
+kijk de kamer rond en zie onuitgepakte dozen, kleren op de grond en in de hoek een slapende hond. Patrick 
+
+begint te fluisterzingen en ik geloof dat ik mijn adem inhoud. Na een paar minuten tikt iemand op mijn 
+
+schouder en hoor ik een stem uit een andere kamer. Ik zet mijn bril af. Het is alsof ik te vroeg wakker word. 
+
+Ik wil weten hoe het afloopt, maar de tijd is om.<br><br>
+
+Ik ben weer in De Brakke Grond, in de IDFA DocLab expo waar ik via een Oculus Rift even in de 
+
+studio van Patrick Watson in Montréal was. De 360 graden film <i>Strangers with Patrick Watson</i> (2014) van 
+
+regisseurs Félix Lajeunesse en Paul Raphaël is <i>virtual reality</i> zonder science fiction.<br><br>
+
+Overgangen tussen fysiek, virtueel, analoog, digitaal, online en offline zijn steeds 
+
+minder schokkerig, maar dat maakt het soms wel wat verwarrend. Waar ben ik ook alweer? De fysieke 
+
+ruimte is doordrenkt met mediaruimte. Virtueel is net zo goed realiteit.<br><br>
+
+Volgens kunstenaar Constant Dullaart (1979) is de manier waarop we omgaan met beeld en met 
+
+ruimte fundamenteel veranderd. Op het web bepalen algoritmes wat we te zien krijgen. Onze telefoons 
+
+zorgen ervoor dat niets meer privé is, waardoor de betekenis van de publieke ruimte ook is getransformeerd. 
+
+We bevinden ons volgens hem permanent op een soort ‘balkon’, dat zowel publiek als privé is, binnen en 
+
+buiten, online en offline, een ruimte en een beweging. Die omgeving zouden we heel bewust moeten 
+
+verkennen en ons eigen moeten maken.<br><br>
+
+Met zijn werk biedt Dullaart inzicht in de mechanismen van dat balkon. Zoals met zijn project 
+
+<i>100.000 Followers for Everyone</i> (2014), waarbij hij 2.5 miljoen ‘nepvolgers’ kocht en deze spookidentiteiten 
+
+verspreidde over twitter-accounts van kunstenaars en cultuurinstellingen, totdat iedereen 100.000 volgers 
+
+had. Een ander werk is <i>Jennifer_in_Paradise</i> (2013), de opnieuw gedistribueerde eerste gephotoshopte foto 
+
+ooit. De afbeelding toont een vrouw aan het strand en werd gebruikt om uit te leggen hoe de software precies 
+
+werkt. Dullaart publiceerde de foto op het web met een toegevoegde versleutelde tekst in de code van de 
+
+afbeelding, zoals hackers vaak informatie met elkaar delen om ongemerkt te communiceren. Op die manier 
+
+veroverde Dullaart een geheime ruimte om in te publiceren. Een ruimte die zich enorm snel via het web 
+
+vermenigvuldigde.<br><br>
+
+Ook kunstenaar Paulo Cirio (1979) opereert heel inventief in de genetwerkte informatieruimte. Met 
+
+zijn <i>Street Ghosts Project</i> (2012) plaatst hij levensgrote posters van mensen die onscherp en vervaagd zijn 
+
+afgebeeld op Google Street View terug op straat. Precies op de plek waar de foto’s ooit zijn genomen door 
+
+de camerawagens van Google. De ‘spoken’ confronteren ons met de aanwezigheid van alle camera’s om ons 
+
+heen. We worden overal gezien.<br><br>
+
+<i>‘This area is under 23 hour video and audio surveillance’</i> staat er op een bordje in het park. 
+
+Voorbijgangers vragen zich af wanneer de bewakers lunchpauze hebben. Of het niet een administratieve fout 
+
+is. Of dat de gemeente heeft bezuinigd. Het is een werk van kunstenaar Ahmet Ögüt (1981) die het bordje in 
+
+een aantal publieke parken plaatste. Een van de voorbijgangers plaatste een foto van één van de bordjes op 
+
+<i>FailBlog</i>, waar online verder werd gediscussieerd over alle CCTV camera’s in de stad.<br><br>
+
+
+Het werk van Ögüt, Dullaart en Cirio reflecteert – hoe verschillend ook – op onze extreem 
+
+verknoopte hybride ruimten. Door te interveniëren in de ruimten maken deze kunstenaars ons bewust van de 
+
+mechanismen, ook al kunnen we die vaak nog niet doorgronden. De projecten fungeren als een soort 
+
+oriëntatiepunten in een complex landschap. Ze laten zien in wat voor omgeving we ons bewegen. En waar 
+
+we ons - al dan niet bewust - nog meer bevinden. Op een kruk en een sofa. Via de achterdeur naar het 
+
+balkon. [S]</p>
+<p>Gepubliceerd in jrg. 23, nr. 3: <i>Let's get digital</i>.</p>
+
+                                </div>
+                            </div>
+
+
+
+
+
+
+						<!--Hier begint het volgende blog-artikel-->
+                        
+                        <a href="#expandedblog-deux" class="inline">
+                            <div>
+                                <img src="content/blog/deux/afbeelding-klein.jpg" onerror="if (this.src != 'images/blogstandaard.png') this.src = 'images/blogstandaard.png';">
+                                <span class="red"><i>Waanzin: </i>Portfolio / Sofia Dupon on artist Baha Görkem Yalim</span>
+                                <p>[21-04-2015] Baha Görkem Yalim (1987) is a Turkish born artist, based in Amsterdam where he is currently graduating 
+
+from the audiovisual department (VAV) at the Rietveld Academy. In this Portfolio we look at the video-
+
+work Pas de deux (2013).
+
+            This work is derived from First World War video material found in the archives of the EYE of 
+
+veterans suffering from Shell Shock Syndrome. Although being probably victors of the battle, these 
+
+veterans have become victims of war,</p>
+                            </div>
+                        </a>
+                            <div class="expandedblog" id="expandedblog-deux">
+                                <div>
+                                    <img src="content/blog/deux/afbeelding-groot.jpg" onerror="if (this.src != 'images/blogstandaard.png') this.src = 'images/blogstandaard.png';">
+                                    <p>Baha Görkem Yalim. <i>Pas de deux</i>. 2013. Video.</p>
+                                    <h3 class="red">Sofia Dupon on artist Baha Görkem Yalim</h3>
+                                    <p>Sofia Dupon / 21-04-2015</p>
+                                    <p>Baha Görkem Yalim (1987) is a Turkish born artist, based in Amsterdam where he is currently graduating
+
+from the audiovisual department (VAV) at the Rietveld Academy. In this Portfolio we look at the video-
+
+work <i>Pas de deux</i> (2013).<br><br>
+
+            This work is derived from First World War video material found in the archives of the EYE of 
+
+veterans suffering from Shell Shock Syndrome. Although being probably victors of the battle, these 
+
+veterans have become victims of war, having to pay with their mental well-being. Baha has 
+
+choreographed their movements into a five-minute sequence that he performs himself. By that, he does 
+
+not only step into the skin of the veterans, but also questions our experience of looking at traumatic 
+
+events.<br><br>
+
+            We see stills from the video: a confused person is making disturbed movements, all the while 
+
+not crossing the borders of a small white-taped square. The video is in black and white, as if the colour 
+
+has not only been sucked out of the actor, but out of his environment as well. Then there is the contrast 
+
+of the reduced space with the ultra-ordinary houseplant in the left corner of the square. “The <i>Pas de 
+
+deux</i> is a sequence in traditional ballet between two dancers,” Görkem explains. “One of the two leads 
+
+the dance, the other performs sustained movements. I use the houseplant to contrast the stillness with 
+
+the disturbance of the performer, and to contrast a balanced state with mental illness.”<br><br>
+
+            The objects we encounter in daily life more often gain ‘human’ characteristics in Baha’s work. 
+
+Via small interventions he tries to enable new interpretations of the objects, without letting go of their 
+
+original purpose. Concrete practices or experiences always lead the way though, whether it is a memory 
+
+of high school adolescence, the group dynamics of construction workers, or the documentation of war.<br><br>
+
+            Lately we have been struck with the insanity of war repeatedly. Images of violence seem to 
+
+shake us up, activate us and work on our conscience. In the case of <i>Pas de deux</i> they make us question 
+
+the pictures we do not see, but which have led to this very situation. At the same time we as viewers get 
+
+confused by the re-enactment: are we to be ashamed, or may  we enjoy this suffering aesthetically, as 
+
+we have already done for centuries with a suffering Christ for instance? [S]</p>
+<p>Gepubliceerd in jrg. 23, nr. 2: <i>Waanzin</i>.</p>
+                                </div>
+                            </div>
+                            
+                            
+                            
+                            
+                            
+                            
+                        <!--hier begint het volgende blog-artikel-->
+                        
+                        <a href="#expandedblog-zeilen" class="inline">
+                            <div>
+                                <img src="content/blog/zeilen/afbeelding-klein.jpg" onerror="if (this.src != 'images/blogstandaard.png') this.src = 'images/blogstandaard.png';">
+                                <span class="red"><i>Waanzin: </i>Column / Waanzinnig</span>
+                                <p>[21-04-2015] Het idee van zeilen sprak me altijd al aan, varen geeft vrijheid in een land waar alles
+
+gereguleerd is. Samen met mijn vriend kocht ik begin 2014 dan ook een kajuitzeilbootje. 
+
+Slechts 5,1 meter is onze ‘Elsa’. Na een maandje opknappen en repareren - voor 150 euro 
+
+koop je een boot zonder gaten, maar zeilklaar is zij dan niet - werd het plan gesmeed om naar 
+
+de Waddeneilanden te zeilen.</p>
+                            </div>
+                        </a>
+                            <div class="expandedblog" id="expandedblog-zeilen">
+                                <div>
+                                    <img src="content/blog/zeilen/afbeelding-groot.jpg" onerror="if (this.src != 'images/blogstandaard.png') this.src = 'images/blogstandaard.png';">
+                                    <p class="red">Waanzinnig</p>
+                                    <p>Querine van der Weijde / 21-04-2015</p>
+                                    <p>Het idee van zeilen sprak me altijd al aan, varen geeft vrijheid in een land waar alles
+
+gereguleerd is. Samen met mijn vriend kocht ik begin 2014 dan ook een kajuitzeilbootje. 
+
+Slechts 5,1 meter is onze ‘Elsa’. Na een maandje opknappen en repareren - voor 150 euro 
+
+koop je een boot zonder gaten, maar zeilklaar is zij dan niet - werd het plan gesmeed om naar 
+
+de Waddeneilanden te zeilen. Toen we onze voornemens kenbaar maakten aan vrienden en 
+
+familie viel god en heel het vaderland over ons heen. “Dat kan toch helemaal niet met zo’n 
+
+kleine boot?” “Dan ben je toch gek?” De bezorgdheid was niet geheel onterecht: ik kan 
+
+helemaal niet zeilen. Mijn vriend heeft een jaar of vijf geleden wat met vrienden gevaren, 
+
+maar daar bleef het ook bij.<br><br>
+
+Kunstenaar Joost Conijn zat echter in mijn gedachten: alles begint met de eerste stap. Joost 
+
+Conijn bouwde zijn eigen vliegtuig en vloog ermee naar Noord-Afrika. Meerdere reizen met 
+
+zelfgemaakte voertuigen volgden. Conijn is niet alleen iemand met een goed gevoel voor 
+
+avontuur, hij laat zien dat je met een flinke dosis creativiteit het onmogelijke mogelijk kan 
+
+maken. <br><br>
+
+Het is opvallend dat een kunstenaar een positie in de samenleving heeft waarbij hij zich meer 
+
+kan permitteren. Gedragingen en uitingen die tegen de conventies van onze samenleving in 
+
+gaan, worden al snel als waanzin beschouwd. Waar de ‘gek’ voor wordt opgesloten kan de 
+
+kunstenaar om geroemd worden. Misschien ligt het verschil in de controle over de 
+
+handelingen. De kunstenaar vliegt even los van conventies, maar landt binnen een 
+
+kunsttraditie. De gek koerst af op de zon zonder na te denken over de gevolgen. Uitingen van 
+
+waanzin kunnen in het licht van kunst als zeer positief worden beschouwd. De kunstenaar zet 
+
+waanzin om in iets waanzinnigs. <br><br>
+
+Bas Jan Ader is een kunstenaar uit dezelfde traditie als Joost Conijn. Gefascineerd door de 
+
+kracht van de natuur maakte hij in Amsterdam furore door herhaaldelijk de gracht in te 
+
+fietsen. In 1975 voer hij met een klein zeilbootje uit om de oceaan over te steken. Zestig 
+
+dagen zou hij er over doen. Na zes maanden werd zijn bootje leeg gevonden. Ader is nooit 
+
+meer boven water gekomen. Een onderdeel van zijn werk of een performance waarover de 
+
+controle is verloren? Waanzinnig of waanzin? De grens is flinterdun. <br><br>
+
+Als Ader wilde ik mijn reis in ieder geval niet eindigen. We lieten ons inspireren door het 
+
+beste van beide kunstenaars. De eerste stap van iets wat onmogelijk leek, werd gezet. Ik heb 
+
+kennisgemaakt met de kracht van de natuur. Met windkracht 5 over open water is een enorme 
+
+uitdaging, zowel mentaal als fysiek. Na drie weken en ruim 400 kilometer keerden we zonder 
+
+ongelukken terug. Creativiteit bood de oplossing bij kapot materiaal. De rest van de reis was 
+
+een kwestie van de controle proberen te houden maar deze ook genoeg los te laten om een 
+
+waanzinnig avontuur te beleven. [S]</p>
+<p>Gepubliceerd in jrg. 23, nr. 2: <i>Waanzin</i>.</p>
+                                </div>
+                            </div>
+                </div>
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <!--Hier eindigt de blog, en begint het nieuws-->
+                                  
+                       
+            <div class="page-nieuws">
+            	<h3>Nieuws</h3>
+                <div class="news1">
+                	<p class="red">Auteurs gezocht voor <i>Het Collectief</i> </p><p>
+Voor ons komende themanummer Het Collectief zijn we op zoek naar auteurs. Zie <a href="content/aanschrijfbriefhetcollectief.docx.pdf">[onze aanschrijfbrief]</a> voor meer informatie over de thematiek en inzendingseisen.</p>
+				</div>
+                <div class="news2">
+                	<p class="red">Simulacrum is verhuisd</p><p>
+Simulacrum heeft haar intrek genomen in een nieuw kantoor! Vanaf heden is dit ons postadres:<br><br>
+Stichting Simulacrum<br>
+Turfdraagsterpad 9<br>
+1012 XT Amsterdam<br></p>
+
+				</div>
+                <div class="news3">
+                	<p class="red">Cursus in het KNIR volgen?</p><p>
+Zin om bij het KNIR (Koninklijk Instituut Rome) een cursus over kunstenaar-en schrijvershuizen te volgen? Dat kan! Je kunt je nog tot 29 oktober <a href= http://www.knir.it/nl/kunstenaars-en-schrijvershuizen>[hier] aanmelden.</a> </a></p>
+				</div>
+            </div>
+
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+            <!--hier eindigt het nieuws, en begint redactie-->
+            
+            
+            
+            <div id="wrap-redactie">
+            <div class="page-redactie">
+            	
+                <div class="redactietekst"><h3 class="redactie-h3">Redactie</h3><p>De redactie van Simulacrum bestaat uit gemotiveerde studenten en net-afgestudeerden die zich vrijwillig inzetten voor het tijdschrift. Heb jij ook spannende ideeën voor de invulling van onze nummers, een passie voor kunst en taal en wil jij een netwerk opbouwen in de Amsterdamse kunstwereld? Stuur dan je CV en motivatie naar <a href="mailto:info@simulacrum.nl">info@simulacrum.nl</a>.</p></div>
+                </div>
+            </div>
+                      
+                  
+            <!--hier eindigt redactie, en begint contact-->
+            
+            
+            <div class="page-contact">
+            	<h3>Contact</h3>
+                <p class="red">Schrijven?</p>
+                <p>Voor elk nummer is Simulacrum op zoek naar wetenschappelijke artikelen, interviews, een column en een kunstenaarsportfolio. De actuele oproep voor het aankomende nummer kunt u vinden op onze nieuwspagina. 
+				</p>
+				<p class="red">Abonnee worden?</p>
+                <p>Een jaarabonnement op Simulacrum kost €20,- voor studenten en €25,- voor niet-studenten. Daarnaast kunt u vriend worden van Simulacrum voor €50,- per jaargang. Abonnee of vriend wordt u door het invullen van <a href="#abonneerformulier" class="inline">[dit formulier]</a>. Wij nemen daarna zo snel mogelijk contact met u op. Lees het <a href="#expandedcolofon" class="inline">colofon</a> voor meer informatie.
+                </p>
+				<p class="red">Adverteren?</p>
+                <p id="adverterentekst">Met een advertentie in Simulacrum bereikt u een breed publiek van kunstliefhebbers, waaronder veel studenten. Daarnaast
+steunt u een tijdschrift dat zonder winstoogmerk wordt gemaakt en stimuleert u de ontwikkeling van jonge academici. Ons aanbod staat beschreven in <a href="content/advertentiebestand.pdf">[ons advertentiebestand]</a>. Neem contact met ons op via <a href="mailto:info@simulacrum.nl">info@simulacrum.nl</a>.
+                </p>
+                <p class="red">Verkooppunten</p>
+                <p>Verkooppunten van Simulacrum zijn onder andere Athenaeum Boekhandels (Amsterdam en Haarlem), Boekhandel Kirchner (Amsterdam), Architectura et Natura (Amsterdam), De Literaire Boekhandel (Utrecht), Kröller-Müller Museum (Otterloo) en Cobra Museum (Amstelveen).</p>
+                <p class="red">Contactgegevens</p>
+                <p>Postadres:<br>Stichting Simulacrum<br>Turfdraagsterpad 9<br>1012 XT Amsterdam<br><br>E-mail: <a href="mailto:info@simulacrum.nl">info@simulacrum.nl</a><br>Facebook: <a href="http://www.facebook.com/stichtingsimulacrum">www.facebook.com/stichtingsimulacrum</a><br>Twitter: <a href="http://www.twitter.com/simulacrum_uva">www.twitter.com/simulacrum_uva</a></p>
+                
+                <iframe id="abonneerformulier" style="display:none;" src="https://docs.google.com/forms/d/1CNxA-_QWJXKGc9DH4bH5Duu8TVY27gdA-8uyw3GqSOU/viewform" width="760" height="1190" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                <div class="expandedblog" id="expandedcolofon" style="display:none"><h3>Colofon</h3><p>Simulacrum, Wetenschappelijk Tijdschrift voor Kunst en Cultuur, verschijnt vier keer per jaar en wordt uitgegeven door Stichting Simulacrum, Herengracht 286, 1016 BX te Amsterdam.<br><br><br>De redactie bestaat op dit moment uit Anne Mager, Julia Steenhuisen, Lindy Kuit, Maartje Knepper, Querine van der Weijde, Sofie Degenaar, Sofia Dupon, Mylene Jankowski, Frederike Sperling en Franziska Wolf.<br>Kijk voor meer informatie over de huidige redactie op de pagina Redactie.<br><br>Hoofdredactie: Anne Mager<br>Eindredactie: Sofie Degenaar<br>Grafisch ontwerp: HouwersBartels<br>Druk: NPN Drukkers, Breda<br><br>Abonnee wordt men door het formulier in te vullen op de pagina Abonneren, door te e-mailen of door eventueel een ondertekend algemeen incasso contract op te sturen naar Herengracht 286, 1016 BX, Amsterdam. Een jaarabonnement kost €20,- voor studenten, €25,- voor niet-studenten en €50,- voor begunstigers.<br><br>Adreswijzigingen dienen minstens een week voor de verhuizing per post, per e-mail of via de website aan ons te worden doorgegeven. Nummers die u heeft misgelopen door het te laat doorgeven van uw nieuwe adres worden niet nagezonden.<br><br>Opzeggingen kunnen schriftelijk of per e-mail worden gedaan tot vier weken voor het begin van de nieuwe jaargang op 1 september. Abonnementen worden automatisch verlengd.<br><br>Adverteren? Neem contact op per e-mail of kijk op de website onder Adverteren.<br><br>Ideeën, reacties en artikelen zijn altijd welkom via de post of per e-mail. De redactie van Simulacrum behoudt zich het recht voor om ingezonden artikelen en foto's aan te passen en/of deze niet te plaatsen indien zij niet voldoen aan de beoogde kwaliteitsnorm van Simulacrum. Mocht u menen enige rechten te ontlenen aan de hier gepubliceerde afbeeldingen, dan kunt u contact op nemen met de redactie.<br><br>Verkooppunten: Athenaeum Boekhandels (Amsterdam en Haarlem), Boekhandel Kirchner (Amsterdam), Architectura et Natura (Amsterdam), De Literaire Boekhandel (Utrecht), Kröller-Müller Museum (Otterloo), Cobra Museum (Amstelveen).<p>
+                </div>
+                <div class="expandedblog" id="expandedmap" style="display:none"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.991948421316!2d4.88652340000001!3d52.370566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c3b97ce7c9%3A0x15f457947d2ec38!2sHerengracht+286%2C+1016+BX+Amsterdam!5e0!3m2!1snl!2snl!4v1429012038138" width="700" height="600" frameborder="0" style="border:0"></iframe>
+                </div>
+            </div>
+                
+			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <!--hier eindigt contact, en begint archief-->            
+            
+            <div class="page-archief">
+            	<h3>Archief</h3>
+                <p>Aan dit deel van de website wordt nog gewerkt.<br>Kom snel terug om het resultaat te zien.</p>
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <!--hier eindigt archief, en daarmee ook de rst van de site-->
+            
+            
+            
+            
+            <div id="disclaimer"><p>Website door: Tom Bekkers</p></div>
+         </div>
+         </div>
+</body>
+</html>
